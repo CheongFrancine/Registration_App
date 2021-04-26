@@ -11,7 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Registration Form"
+        android:text="@string/form_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <TextView
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:text="Welcome to Adventure Learning Club!" />
+        android:text="@string/welcome_sentence" />
 
     <View
         android:id="@+id/divider"
@@ -37,7 +37,7 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Full Name" />
+            android:text="@string/full_name" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -53,7 +53,7 @@
                 android:layout_weight="3"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="First Name"
+                android:text="@string/first_name"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <EditText
@@ -63,7 +63,7 @@
                 android:layout_weight="4"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Last Name"
+                android:text="@string/last_name"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
         </LinearLayout>
 
@@ -78,7 +78,7 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gender" />
+            android:text="@string/gender" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -96,14 +96,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Male" />
+                    android:text="@string/male" />
 
                 <RadioButton
                     android:id="@+id/radioButton4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Female" />
+                    android:text="@string/female" />
             </RadioGroup>
         </LinearLayout>
 
@@ -118,7 +118,7 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Student ID" />
+            android:text="@string/student_id" />
 
         <EditText
             android:id="@+id/editTextTextPersonName3"
@@ -139,7 +139,7 @@
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="School" />
+            android:text="@string/school" />
 
         <EditText
             android:id="@+id/editTextTextPersonName4"
@@ -161,7 +161,7 @@
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="E-mail" />
+            android:text="@string/e_mail" />
 
         <EditText
             android:id="@+id/editTextTextPersonName5"
@@ -183,7 +183,7 @@
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Phone" />
+            android:text="@string/phone" />
 
         <EditText
             android:id="@+id/editTextTextPersonName7"
@@ -208,7 +208,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="65dp"
             android:layout_marginLeft="65dp"
-            android:text="Register"
+            android:text="@string/register"
             app:backgroundTint="#000000" />
     </LinearLayout>
 </LinearLayout>
